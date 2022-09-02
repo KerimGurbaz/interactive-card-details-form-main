@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.display-one {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.left-side {
+  background-image: url(./images/bg-main-desktop.png);
+  width: 40%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.card-first {
+  background-image: url(./images/bg-card-front.png);
+
+  width: 28rem;
+  height: 15.2rem;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 12rem;
+  left: 30rem;
+}
+
+.card-second {
+  background-image: url(./images/bg-card-back.png);
+  background-repeat: no-repeat;
+  width: 28rem;
+  height: 15.2rem;
+  position: absolute;
+  top: 28.7rem;
+  left: 34.5rem;
+}
+
+.zero {
+  position: absolute;
+  top: 7.5rem;
+  left: 23.4rem;
+}
+
+.card-first img {
+  padding: 1.8rem;
+}
+
+.fourzero {
+  word-spacing: 1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 100%;
+  margin: 1.8rem auto;
+}
+
+.namezero {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
